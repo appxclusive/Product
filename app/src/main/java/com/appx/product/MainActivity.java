@@ -2,6 +2,7 @@ package com.appx.product;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -12,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView textView = findViewById(R.id.text);
         textView.setText(BuildConfig.FLAVOUR + " | " + BuildConfig.VERSION_NAME + " | " + BuildConfig.BUILD_TYPE);
+        Log.v("aaaa", "aaaa");
     }
 }
