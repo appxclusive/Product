@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView textView = findViewById(R.id.text);
         textView.setText(BuildConfig.FLAVOUR + " | " + BuildConfig.VERSION_NAME + " | " + BuildConfig.BUILD_TYPE);
-        Log.v("aaaaa", "aaaaa");
+        Log.v("aaaaa", "aaaa");
     }
 }
